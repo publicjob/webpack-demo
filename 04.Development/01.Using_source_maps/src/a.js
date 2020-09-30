@@ -1,0 +1,1 @@
+document.body.innerHTML += '<h1>this is a.js</h1>'

@@ -1,0 +1,1 @@
+document.boy.innerHTML += '<h1>this is b.js</h1>'

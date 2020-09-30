@@ -1,0 +1,36 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "webpack:01-02": "webpack --config 01.Getting-Started/02.Creating_a_Bundle/webpack.config.js",
+    "webpack:02-01": "webpack --config 02.Asset-Management/01.Loading_CSS/webpack.config.js",
+    "webpack:02-02": "webpack --config 02.Asset-Management/02.Loading_Images/webpack.config.js",
+    "webpack:02-03": "webpack --config 02.Asset-Management/03.Loading_Fonts/webpack.config.js",
+    "webpack:04-01": "webpack --config 04.Development/01.Using_source_maps/webpack.config.js",
+    "webpack:04-02": "webpack --config 04.Development/02.Using_Watch_Mode/webpack.config.js --watch",
+    "webpack:04-03": "webpack-dev-server --config 04.Development/03.Using_webpack-dev-server/webpack.config.js --open",
+    "webpack:04-04": "node 04.Development/04.Using_webpack-dev-middleware/server.js",
+    "webpack:05-01": "webpack --config 05.Code-Splitting/01.Entry_Points/webpack.config.js",
+    "webpack:05-02": "webpack --config 05.Code-Splitting/02.Prevent_Duplication/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "PublicJob",
+  "license": "ISC"
+}
